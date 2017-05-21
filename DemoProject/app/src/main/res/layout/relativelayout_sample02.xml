@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rl01"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="4dp">
+
+        <ImageView
+            style="@style/imgView_avatar"
+            android:id="@+id/imgTop"
+            android:src="@mipmap/img_avatar07"
+            android:background="@drawable/avatar_bg"/>
+        <TextView
+            style="@style/textView_Author"
+            android:id="@+id/txt01"
+            android:text="Tác giả: Phạm thị Thu Trang"
+            android:layout_toRightOf="@id/imgTop"
+           />
+
+        <TextView
+            style="@style/textView_Detail"
+            android:id="@+id/txt02"
+            android:text="Người đã có nhiều bài thơ tình rất hay"
+            android:layout_below="@id/txt01"
+            android:layout_toRightOf="@id/imgTop"
+           />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl02"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="4dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/rl01">
+
+        <ImageView
+            style="@style/imgView_avatar"
+            android:id="@+id/img02"
+            android:src="@mipmap/img_avatar02"
+           />
+        <TextView
+            style="@style/textView_Author"
+            android:id="@+id/txt03"
+            android:text="Tác giả: Trần Thị Thanh Hằng"
+            android:layout_toRightOf="@+id/img02"
+           />
+        <TextView
+            style="@style/textView_Detail"
+            android:text="Người đã có nhiều bài thơ tình rất hay"
+            android:layout_below="@+id/txt03"
+            android:layout_toRightOf="@id/img02"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl03"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="4dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/rl02">
+
+        <ImageView
+            android:id="@+id/img03"
+            android:src="@mipmap/img_avatar06"
+            android:adjustViewBounds="true"
+            style="@style/imgView_avatar"
+            />
+        <TextView
+            android:id="@+id/txt05"
+            android:text="Tác giả: Nguyễn Thị Mộng Mơ"
+            android:layout_toRightOf="@+id/img03"
+            style="@style/textView_Author"
+          />
+        <TextView
+            style="@style/textView_Detail"
+            android:text="Người đã có nhiều bài thơ tình rất hay"
+            android:layout_below="@+id/txt05"
+            android:layout_toRightOf="@id/img03"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl04"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="4dp"
+        android:background="@android:color/holo_purple"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/rl03">
+
+        <ImageView
+            android:id="@+id/img04"
+            style="@style/imgView_avatar"
+            android:src="@mipmap/img_avatar08"
+            android:background="@drawable/avatar_bg"
+            />
+        <TextView
+            android:id="@+id/txt06"
+            android:text="Tác giả: Nguyễn Thị Mộng Mơ"
+            android:textColor="@android:color/white"
+            android:layout_toRightOf="@+id/img04"
+            style="@style/textView_Author"/>
+        <TextView
+            android:text="Người đã có nhiều bài thơ tình rất hay"
+            android:layout_below="@+id/txt06"
+            android:layout_toRightOf="@id/img04"
+            android:layout_marginTop="10dp"
+            style="@style/textView_Detail"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

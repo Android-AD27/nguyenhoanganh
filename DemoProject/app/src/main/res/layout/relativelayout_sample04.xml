@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp">
+    <TextView
+        android:id="@+id/txtView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Length Unit Converter Calculation"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/txtView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conver from"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtView01"
+        android:layout_alignLeft="@+id/txtView01"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:id="@+id/edit_ConvertFrom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/txtView02"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/txtView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a value"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/edit_ConvertFrom"
+        android:layout_alignLeft="@+id/edit_ConvertFrom"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/edit_Value"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_below="@+id/txtView03"
+        android:layout_alignLeft="@+id/edit_ConvertFrom"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/edit_ConvertFrom"/>
+
+    <TextView
+        android:id="@+id/txtView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert to"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/edit_Value"
+        android:layout_alignLeft="@+id/edit_Value"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/edit_ConvertTo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_alignLeft="@id/edit_Value"
+        android:layout_alignRight="@id/edit_Value"
+        android:layout_below="@+id/txtView04"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btn_Calculate"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Calculate"
+        android:background="@color/GrayE6"
+        android:layout_below="@+id/edit_ConvertTo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btn_Calculate"
+        android:layout_marginTop="40dp"
+        android:layout_alignLeft="@id/edit_ConvertTo"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_below="@+id/btn_Calculate"
+        android:layout_alignRight="@id/edit_ConvertTo"
+        android:layout_marginTop="25dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgBanner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="30dp"
+        android:src="@mipmap/img_avatar05"
+        android:background="@android:color/holo_blue_light"/>
+
+    <EditText
+        android:id="@+id/edit_Username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_below="@id/imgBanner"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"/>
+    <EditText
+        android:id="@+id/edit_Password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@id/edit_Username"
+        android:layout_centerInParent="true"/>
+
+    <CheckBox
+        android:id="@+id/ckb_Remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/edit_Password"
+        android:layout_below="@id/edit_Password"
+        android:text="Remember me"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@id/ckb_Remember"
+        android:layout_centerInParent="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btn_SignUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign Up"
+            android:layout_margin="2dp"/>
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login"
+            android:layout_margin="2dp"/>
+    </LinearLayout>
+</RelativeLayout>
