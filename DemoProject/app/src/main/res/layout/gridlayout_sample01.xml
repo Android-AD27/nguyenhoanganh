@@ -1,55 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="top|center"
     android:columnCount="2"
-    android:layout_gravity="center">
-    <ImageView
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
         android:background="@drawable/spr_bg_green_gradient"
-        android:text="AUTOMOTRIZ"
-        style="@style/GL_Sample01"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/img_Automotriz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pickup_50px"
+            />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt_Automotriz"
+            android:text="AUTOMOTRIZ"
+            style="@style/TextGL_Sample01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Automotriz"
+            android:layout_marginTop="25dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_rowWeight="1"
         android:layout_columnWeight="1"
-        />
-    <ImageView
-        android:background="@drawable/spr_bg_purple_gradient"
-        style="@style/GL_Sample01"
-        android:text="CALZADO Y ROPA"
-        android:layout_columnWeight="1"
-        />
-    <ImageView
-        android:background="@drawable/spr_bg_orange_gradient"
-        style="@style/GL_Sample01"
-        android:text="DEPORTIVO"
-        android:layout_columnWeight="1"
-       />
-
-    <ImageView
-        android:background="@drawable/spr_bg_red_gradient"
-        style="@style/GL_Sample01"
-        android:text="ENTRETENIMIEN TO"
-
-        />
-    <ImageView
-        android:background="@drawable/spr_bg_yellow_gradient"
-        style="@style/GL_Sample01"
-        android:text="RESTAURANTES"
-        android:layout_columnWeight="1"
-        />
-    <ImageView
-        android:background="@drawable/spr_bg_blue01_gradient"
-        style="@style/GL_Sample01"
-        android:text="SALUD Y BELLEZA"
-        />
-    <ImageView
-        android:background="@drawable/spr_bg_pink_gradient"
-        style="@style/GL_Sample01"
-        android:text="OTROS"
-        android:layout_columnWeight="1"
-        />
-    <ImageView
         android:background="@drawable/spr_bg_blue02_gradient"
-        style="@style/GL_Sample01"
-        android:text="VER TODOS"
-        />
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/img_Calzado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/shopping_bag_50px"
+            />
+        <TextView
+            android:id="@+id/txt_Calzado"
+            android:layout_centerHorizontal="true"
+            android:text="CALZADO ROPA"
+            style="@style/TextGL_Sample01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Calzado"
+            android:layout_marginTop="25dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation = "vertical"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/spr_bg_orange_gradient"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/img_Deportivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cycling_bmx_50px"
+            />
+        <TextView
+            android:id="@+id/txt_Deportivo"
+            android:layout_centerHorizontal="true"
+            android:text="DEPORTIVO"
+            style="@style/TextGL_Sample01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Deportivo"
+            android:layout_marginTop="25dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation = "vertical"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/spr_bg_red_gradient"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/img_Entretenimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/theatre_mask_50px"
+            />
+        <TextView
+            android:id="@+id/txt_Entretenimiento"
+            android:layout_centerHorizontal="true"
+            android:text="DEPORTIVO"
+            style="@style/TextGL_Sample01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Entretenimiento"
+            android:layout_marginTop="25dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation = "vertical"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/spr_bg_yellow_gradient"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/img_Restaurantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/restaurant_50px"
+            />
+        <TextView
+            android:id="@+id/txt_Restaurantes"
+            android:layout_centerHorizontal="true"
+            android:text="DEPORTIVO"
+            style="@style/TextGL_Sample01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Restaurantes"
+            android:layout_marginTop="25dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation = "vertical"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/spr_bg_blue01_gradient"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/img_Salud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/grass_50px"
+            />
+        <TextView
+            android:id="@+id/txt_Salud"
+            android:layout_centerHorizontal="true"
+            android:text="SALUD Y BELLEZA"
+            style="@style/TextGL_Sample01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Salud"
+            android:layout_marginTop="25dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation = "vertical"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/spr_bg_blue01_gradient"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/img_Otros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/passenger_with_baggage_50px"
+            />
+        <TextView
+            android:id="@+id/txt_Otros"
+            android:layout_centerHorizontal="true"
+            android:text="OTROS"
+            style="@style/TextGL_Sample01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Otros"
+            android:layout_marginTop="25dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation = "vertical"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/spr_bg_blue02_gradient"
+        android:gravity="center_vertical">
+        <ImageView
+            android:paddingTop="15dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/img_Vertodos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ellipsis_50px"
+            />
+        <TextView
+            android:id="@+id/txt_Vertodos"
+            android:layout_centerHorizontal="true"
+            android:text="VER TODOS"
+            style="@style/TextGL_Sample01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Vertodos"
+            android:layout_marginTop="25dp"
+            />
+    </RelativeLayout>
+
 </GridLayout>

@@ -39,15 +39,10 @@
     </style>
 
     <!--Style Grid Layout Sample01-->
-    <style name="GL_Sample01">
-        <item name="android:gravity">center|bottom</item>
-        <item name="android:paddingBottom">20dp</item>
-        <item name="android:layout_rowSpan">2</item>
-        <item name="android:layout_rowWeight">1</item>
-        <item name="android:layout_gravity">fill</item>
+    <style name="TextGL_Sample01">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">12sp</item>
     </style>
 
     <style name="GL_Sample02">
