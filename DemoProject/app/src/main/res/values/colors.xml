@@ -23,8 +23,12 @@
     <color name="Blue_Gradient_04">#00052d</color>
     <color name="blue_gradient_center_01">#092554</color>
     <color name="blue_gradient_center_02">#0e3473</color>
-    <!--<color name="blue_gradient_center_01">#092554</color>-->
-    <!--<color name="blue_gradient_center_02">#0e3473</color>-->
+    <color name="blue_gradient_center_03">#005d5a</color>
+    <color name="blue_gradient_center_04">#02888b</color>
+    <color name="yellow_gradient_center_01">#6c7407</color>
+    <color name="yellow_gradient_center_02">#abaa02</color>
+    <color name="green_gradientcenter_01">#365b15</color>
+    <color name="green_gradientcenter_02">#528d1f</color>
 
 
 </resources>
