@@ -5,26 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="GrayE6">#EEEEEE</color>
     <color name="GrayC6">#CCCCCC</color>
-    <color name="Green_Gradient_01">#27A93C</color>
-    <color name="Green_Gradient_02">#007D00</color>
-    <color name="Purple_Gradient_01">#353492</color>
-    <color name="Purple_Gradient_02">#120f68</color>
-    <color name="Orange_Gradient_01">#f47200</color>
-    <color name="Orange_Gradient_02">#dd3d00</color>
-    <color name="Red_Gradient_01">#cd1a1e</color>
-    <color name="Red_Gradient_02">#9c0305</color>
-    <color name="Yellow_Gradient_01">#fac902</color>
-    <color name="Yellow_Gradient_02">#f7a901</color>
-    <color name="Blue_Gradient_01">#2c99ba</color>
-    <color name="Blue_Gradient_02">#00658f</color>
-    <color name="Pink_Gradient_01">#ce2b86</color>
-    <color name="Pink_Gradient_02">#9b054f</color>
-    <color name="Blue_Gradient_03">#012b67</color>
-    <color name="Blue_Gradient_04">#00052d</color>
-    <color name="blue_gradient_center_01">#092554</color>
-    <color name="blue_gradient_center_02">#0e3473</color>
-    <!--<color name="blue_gradient_center_01">#092554</color>-->
-    <!--<color name="blue_gradient_center_02">#0e3473</color>-->
-
-
+    
 </resources>

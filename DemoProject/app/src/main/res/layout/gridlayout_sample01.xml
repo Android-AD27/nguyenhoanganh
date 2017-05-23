@@ -6,49 +6,49 @@
     android:columnCount="2"
     android:layout_gravity="center">
     <TextView
-        android:background="@drawable/spr_bg_green_gradient"
+        android:background="@android:color/holo_green_dark"
         android:text="AUTOMOTRIZ"
         style="@style/GL_Sample01"
         android:layout_columnWeight="1"
         />
     <TextView
-        android:background="@drawable/spr_bg_purple_gradient"
+        android:background="@android:color/holo_purple"
         style="@style/GL_Sample01"
         android:text="CALZADO Y ROPA"
         android:layout_columnWeight="1"
         />
     <TextView
-        android:background="@drawable/spr_bg_orange_gradient"
+        android:background="@android:color/holo_orange_dark"
         style="@style/GL_Sample01"
         android:text="DEPORTIVO"
         android:layout_columnWeight="1"
        />
 
     <TextView
-        android:background="@drawable/spr_bg_red_gradient"
+        android:background="@android:color/holo_red_light"
         style="@style/GL_Sample01"
         android:text="ENTRETENIMIEN TO"
 
         />
     <TextView
-        android:background="@drawable/spr_bg_yellow_gradient"
+        android:background="@android:color/holo_orange_light"
         style="@style/GL_Sample01"
         android:text="RESTAURANTES"
         android:layout_columnWeight="1"
         />
     <TextView
-        android:background="@drawable/spr_bg_blue01_gradient"
+        android:background="@android:color/holo_blue_light"
         style="@style/GL_Sample01"
         android:text="SALUD Y BELLEZA"
         />
     <TextView
-        android:background="@drawable/spr_bg_pink_gradient"
+        android:background="@android:color/holo_red_dark"
         style="@style/GL_Sample01"
         android:text="OTROS"
         android:layout_columnWeight="1"
         />
     <TextView
-        android:background="@drawable/spr_bg_blue02_gradient"
+        android:background="@android:color/darker_gray"
         style="@style/GL_Sample01"
         android:text="VER TODOS"
         />
