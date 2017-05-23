@@ -5,49 +5,49 @@
     android:layout_height="match_parent"
     android:columnCount="2"
     android:layout_gravity="center">
-    <TextView
+    <ImageView
         android:background="@drawable/spr_bg_green_gradient"
         android:text="AUTOMOTRIZ"
         style="@style/GL_Sample01"
         android:layout_columnWeight="1"
         />
-    <TextView
+    <ImageView
         android:background="@drawable/spr_bg_purple_gradient"
         style="@style/GL_Sample01"
         android:text="CALZADO Y ROPA"
         android:layout_columnWeight="1"
         />
-    <TextView
+    <ImageView
         android:background="@drawable/spr_bg_orange_gradient"
         style="@style/GL_Sample01"
         android:text="DEPORTIVO"
         android:layout_columnWeight="1"
        />
 
-    <TextView
+    <ImageView
         android:background="@drawable/spr_bg_red_gradient"
         style="@style/GL_Sample01"
         android:text="ENTRETENIMIEN TO"
 
         />
-    <TextView
+    <ImageView
         android:background="@drawable/spr_bg_yellow_gradient"
         style="@style/GL_Sample01"
         android:text="RESTAURANTES"
         android:layout_columnWeight="1"
         />
-    <TextView
+    <ImageView
         android:background="@drawable/spr_bg_blue01_gradient"
         style="@style/GL_Sample01"
         android:text="SALUD Y BELLEZA"
         />
-    <TextView
+    <ImageView
         android:background="@drawable/spr_bg_pink_gradient"
         style="@style/GL_Sample01"
         android:text="OTROS"
         android:layout_columnWeight="1"
         />
-    <TextView
+    <ImageView
         android:background="@drawable/spr_bg_blue02_gradient"
         style="@style/GL_Sample01"
         android:text="VER TODOS"

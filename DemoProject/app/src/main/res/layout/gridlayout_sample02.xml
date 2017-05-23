@@ -7,46 +7,47 @@
     android:layout_row="7"
     android:columnCount="2">
 
-    <TextView
+    <ImageView
         style="@style/GL_Sample02"
         android:text="LOREM IPSUM"
         android:background="@drawable/spr_bg_blue02_gradient"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"/>
-    <TextView
+    <ImageView
         style="@style/GL_Sample02"
         android:text="SOMETHING"
         android:background="@drawable/spr_bg_blue_01_gradientcenter"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"/>
-    <TextView
+    <ImageView
         style="@style/GL_Sample02"
         android:text="IPSUM DOLOR SIT AMET"
         android:background="@drawable/spr_bg_blue_01_gradientcenter"
         android:layout_rowWeight="1"
         android:layout_columnSpan="2"
         android:layout_columnWeight="1"/>
-    <TextView
+    <ImageView
         style="@style/GL_Sample02"
         android:text="IPSUM YES"
         android:background="@drawable/spr_bg_green_02_gradientcenter"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"/>
-    <TextView
+    <ImageView
         style="@style/GL_Sample02"
         android:text="SOMETHING"
         android:background="@drawable/spr_bg_yellow_gradientcenter"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         />
-    <TextView
+
+    <ImageView
         style="@style/GL_Sample02"
         android:text="HELLOWORLD"
         android:background="@drawable/spr_bg_green_01_gradientcenter"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         />
-    <TextView
+    <ImageView
         style="@style/GL_Sample02"
         android:text="YES YES YES"
         android:background="@drawable/spr_gb_red_01_gradientcenter"
@@ -54,7 +55,7 @@
         android:layout_rowWeight="3"
         android:layout_columnWeight="1"
         />
-    <TextView
+    <ImageView
         style="@style/GL_Sample02"
         android:text="LOREM IPSUM DOLOR SIT"
         android:background="@drawable/spr_bg_pink_01_gradientcenter"
@@ -62,7 +63,7 @@
         android:layout_rowSpan="3"
         android:layout_columnWeight="1"
         />
-    <TextView
+    <ImageView
         style="@style/GL_Sample02"
         android:text="DOLOR DOLOR"
         android:background="@drawable/spr_bg_orange_01_gradientcenter"
