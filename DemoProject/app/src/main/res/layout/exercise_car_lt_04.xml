@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_gravity="center|top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/txt_CarType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toyota"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/Blue_Gradient_01"/>
+            <TextView
+                android:id="@+id/txt_Quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19.528 tin rao"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/txt_CarType"
+                />
+            <TextView
+                android:id="@+id/txt_Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toàn quốc"
+                android:textColor="@color/Blue_Gradient_01"
+                android:textStyle="italic"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_acura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/acura" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/spr_bg_text_excar04"
+            android:text="735 triệu"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/img_acura"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/txt_price_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14/03/2016"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:layout_alignRight="@+id/img_acura"
+            android:layout_alignBottom="@+id/img_acura"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/txt_Caption"
+            android:text="         Toyota Innova 2016 giao ngay giá hấp dẫn khai xuân gọi Toyota Hùng"
+            android:textSize="17dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_acura"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <TableLayout
+            android:layout_below="@+id/txt_Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:stretchColumns="*">
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <TextView android:text="Mới"
+                    android:textSize="12sp"
+                    android:paddingLeft="20dp"/>
+                <TextView android:text="Trong nước"
+                    android:textSize="12sp"
+                    android:paddingLeft="20dp"/>
+                <TextView android:text="Tp.HCM"
+                    android:textSize="12sp"
+                    android:paddingLeft="20dp"/>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_asia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/asia" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/spr_bg_text_excar04"
+            android:text="2 tỉ 257 triệu"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/img_asia"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/txt_date_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12/03/2016"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:layout_alignRight="@+id/img_asia"
+            android:layout_alignBottom="@+id/img_asia"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/txt_Caption1"
+            android:text="         Toyota An Sương bán Land Prado, dủ màu, giao ngay, giá tốt"
+            android:textSize="17dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_asia"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <TableLayout
+            android:layout_below="@+id/txt_Caption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:stretchColumns="*">
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <TextView android:text="Mới"
+                    android:textSize="12sp"
+                    android:paddingLeft="20dp"/>
+                <TextView android:text="Trong nước"
+                    android:textSize="12sp"
+                    android:paddingLeft="20dp"/>
+                <TextView android:text="Tp.HCM"
+                    android:textSize="12sp"
+                    android:paddingLeft="20dp"/>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</LinearLayout>

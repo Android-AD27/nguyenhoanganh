@@ -52,4 +52,35 @@
         <item name="android:textSize">15sp</item>
         <item name="android:layout_width">0dp</item>
     </style>
+
+    <!--Text style car project -->
+    <style name="basetext_style_carpj_info">
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="image_car">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <!--textviewleft-->
+    <style name="text_left">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--textviewright-->
+    <style name="text_right">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>

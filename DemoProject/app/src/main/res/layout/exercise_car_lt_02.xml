@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left">
+    <ImageView
+        android:id="@+id/img_Banner"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+    <TextView
+        android:id="@+id/txt_Tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Toyota Corolla Altis 1.8 AT 2016, đủ màu,giá tốt và ưu đãi hấp dẫn nhất Miền Bắc.Liên hệ đặt xe ngay"
+        android:layout_below="@+id/img_Banner"/>
+    <TextView
+        android:id="@+id/txt_Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 tỉ 579 triệu"
+        android:textSize="20sp"
+        android:textColor="@color/Green_Gradient_01"
+        android:layout_below="@+id/txt_Tittle"
+        android:layout_alignLeft="@+id/txt_Tittle"
+        android:padding="5dp"/>
+    <Button
+        android:id="@+id/btn_ChiPhiLanBanh"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Chi Phí Lăn Bánh"
+        android:textColor="@color/Blue_Gradient_01"
+        android:background="@android:color/white"
+        android:layout_below="@id/txt_Tittle"
+        android:layout_alignRight="@+id/txt_Tittle"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"/>
+    <RelativeLayout
+        android:layout_below="@+id/txt_Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_Tittle"
+        android:layout_alignEnd="@id/txt_Tittle">
+
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center|top"
+            android:stretchColumns="*">
+            <TableRow>
+                <TextView
+                    android:text="Mã tin"
+                    style="@style/basetext_style_carpj_info"/>
+                <TextView
+                    android:text="260412"
+                    style="@style/basetext_style_carpj_info"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow android:layout_marginTop="15dp">
+                <TextView
+                    android:text="Địa điểm"
+                    style="@style/basetext_style_carpj_info"/>
+                <TextView
+                    android:text="Hà Nội"
+                    style="@style/basetext_style_carpj_info"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow android:layout_marginTop="15dp">
+                <TextView
+                    android:text="Tình trạng xe"
+                    style="@style/basetext_style_carpj_info"/>
+                <TextView
+                    android:text="Mới"
+                    style="@style/basetext_style_carpj_info"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow android:layout_marginTop="15dp">
+                <TextView
+                    android:text="Xuất xứ"
+                    style="@style/basetext_style_carpj_info"/>
+                <TextView
+                    android:text="Trong nước"
+                    style="@style/basetext_style_carpj_info"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow android:layout_marginTop="15dp">
+                <TextView
+                    android:text="Kiểu dáng"
+                    style="@style/basetext_style_carpj_info"/>
+                <TextView
+                    android:text="Sport"
+                    style="@style/basetext_style_carpj_info"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow android:layout_marginTop="15dp">
+                <TextView
+                    android:text="Năm sản xuất"
+                    style="@style/basetext_style_carpj_info"/>
+                <TextView
+                    android:text="2016"
+                    style="@style/basetext_style_carpj_info"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow android:layout_marginTop="15dp">
+                <TextView
+                    android:text="Ngày đăng"
+                    style="@style/basetext_style_carpj_info"/>
+                <TextView
+                    android:text="26/04/2017"
+                    style="@style/basetext_style_carpj_info"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

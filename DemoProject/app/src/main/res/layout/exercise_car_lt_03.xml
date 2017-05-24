@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            style="@style/image_car"
+            android:id="@+id/img_alpharomeo"
+            android:src="@drawable/alfa_romeo"
+            />
+        <TextView
+            android:text="ALPHA ROMEO"
+            style="@style/text_left"
+            android:layout_alignLeft="@+id/img_alpharomeo"
+            android:layout_alignBottom="@+id/img_alpharomeo"
+            />
+        <TextView
+            style="@style/text_right"
+            android:text="19.376 tin rao"
+            android:layout_alignBottom="@+id/img_alpharomeo"
+            android:layout_alignRight="@+id/img_alpharomeo"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_02"
+        android:layout_below="@id/rl_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            style="@style/image_car"
+            android:id="@+id/img_astonmartin"
+            android:src="@drawable/aston_martin"/>
+        <TextView
+            android:text="ASTON MARTIN"
+            android:textColor="@android:color/white"
+            android:layout_alignLeft="@+id/img_astonmartin"
+            android:layout_alignBottom="@+id/img_astonmartin"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:text="12.053 tin rao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_alignBottom="@+id/img_astonmartin"
+            android:layout_alignRight="@+id/img_astonmartin"
+            android:layout_marginRight="3dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_03"
+        android:layout_below="@+id/rl_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            style="@style/image_car"
+            android:scaleType="fitXY"
+            android:id="@+id/img_bentley"
+            android:src="@drawable/bentley"
+           />
+        <TextView
+            android:text="BENTLEY"
+            android:layout_alignLeft="@+id/img_bentley"
+            android:layout_alignBottom="@+id/img_bentley"
+            style="@style/text_left"/>
+        <TextView
+            style="@style/text_right"
+            android:text="10.234 tin rao"
+            android:layout_alignBottom="@+id/img_bentley"
+            android:layout_alignRight="@+id/img_bentley"
+            />
+    </RelativeLayout>
+</RelativeLayout>

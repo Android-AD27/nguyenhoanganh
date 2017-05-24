@@ -2,207 +2,216 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_centerVertical="true"
     android:layout_gravity="top|center"
     android:columnCount="2"
     android:orientation="horizontal">
+
     <RelativeLayout
-        android:layout_rowWeight="1"
         android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
         android:background="@drawable/spr_bg_green_gradient"
-        android:gravity="center"
-        >
+        android:gravity="center">
+
         <ImageView
-            android:layout_centerInParent="true"
             android:id="@+id/img_Automotriz"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/pickup_50px"
-            />
+            android:src="@drawable/pickup_50px" />
+
         <TextView
-            android:layout_centerHorizontal="true"
             android:id="@+id/txt_Automotriz"
-            android:text="AUTOMOTRIZ"
             style="@style/TextGL_Sample01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/img_Automotriz"
-            android:layout_marginTop="25dp"/>
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="AUTOMOTRIZ" />
     </RelativeLayout>
+
     <RelativeLayout
-        android:layout_rowWeight="1"
         android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
         android:background="@drawable/spr_bg_blue02_gradient"
         android:gravity="center_vertical">
+
         <ImageView
-            android:layout_centerInParent="true"
             android:id="@+id/img_Calzado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/shopping_bag_50px"
-            />
+            android:src="@drawable/shopping_bag_50px" />
+
         <TextView
             android:id="@+id/txt_Calzado"
-            android:layout_centerHorizontal="true"
-            android:text="CALZADO ROPA"
             style="@style/TextGL_Sample01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/img_Calzado"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
-            />
+            android:text="CALZADO ROPA" />
     </RelativeLayout>
+
     <RelativeLayout
-        android:orientation = "vertical"
-        android:layout_rowWeight="1"
         android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
         android:background="@drawable/spr_bg_orange_gradient"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
         <ImageView
-            android:layout_centerInParent="true"
             android:id="@+id/img_Deportivo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/cycling_bmx_50px"
-            />
+            android:src="@drawable/cycling_bmx_50px" />
+
         <TextView
             android:id="@+id/txt_Deportivo"
-            android:layout_centerHorizontal="true"
-            android:text="DEPORTIVO"
             style="@style/TextGL_Sample01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/img_Deportivo"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
-            />
+            android:text="DEPORTIVO" />
     </RelativeLayout>
+
     <RelativeLayout
-        android:orientation = "vertical"
-        android:layout_rowWeight="1"
         android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
         android:background="@drawable/spr_bg_red_gradient"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
         <ImageView
-            android:layout_centerInParent="true"
             android:id="@+id/img_Entretenimiento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/theatre_mask_50px"
-            />
+            android:src="@drawable/theatre_mask_50px" />
+
         <TextView
             android:id="@+id/txt_Entretenimiento"
-            android:layout_centerHorizontal="true"
-            android:text="DEPORTIVO"
             style="@style/TextGL_Sample01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/img_Entretenimiento"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
-            />
+            android:text="DEPORTIVO" />
     </RelativeLayout>
+
     <RelativeLayout
-        android:orientation = "vertical"
-        android:layout_rowWeight="1"
         android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
         android:background="@drawable/spr_bg_yellow_gradient"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
         <ImageView
-            android:layout_centerInParent="true"
             android:id="@+id/img_Restaurantes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/restaurant_50px"
-            />
+            android:src="@drawable/restaurant_50px" />
+
         <TextView
             android:id="@+id/txt_Restaurantes"
-            android:layout_centerHorizontal="true"
-            android:text="DEPORTIVO"
             style="@style/TextGL_Sample01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/img_Restaurantes"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
-            />
+            android:text="       DEPORTIV   " />
     </RelativeLayout>
+
     <RelativeLayout
-        android:orientation = "vertical"
-        android:layout_rowWeight="1"
         android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
         android:background="@drawable/spr_bg_blue01_gradient"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
         <ImageView
-            android:layout_centerInParent="true"
             android:id="@+id/img_Salud"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/grass_50px"
-            />
+            android:src="@drawable/grass_50px" />
+
         <TextView
             android:id="@+id/txt_Salud"
-            android:layout_centerHorizontal="true"
-            android:text="SALUD Y BELLEZA"
             style="@style/TextGL_Sample01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/img_Salud"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
-            />
+            android:text="SALUD Y BELLEZA" />
     </RelativeLayout>
+
     <RelativeLayout
-        android:orientation = "vertical"
-        android:layout_rowWeight="1"
         android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
         android:background="@drawable/spr_bg_blue01_gradient"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
         <ImageView
-            android:layout_centerInParent="true"
             android:id="@+id/img_Otros"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/passenger_with_baggage_50px"
-            />
+            android:src="@drawable/passenger_with_baggage_50px" />
+
         <TextView
             android:id="@+id/txt_Otros"
-            android:layout_centerHorizontal="true"
-            android:text="OTROS"
             style="@style/TextGL_Sample01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/img_Otros"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
-            />
+            android:text="OTROS" />
     </RelativeLayout>
+
     <RelativeLayout
-        android:orientation = "vertical"
-        android:layout_rowWeight="1"
         android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
         android:background="@drawable/spr_bg_blue02_gradient"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
         <ImageView
-            android:paddingTop="15dp"
-            android:layout_centerInParent="true"
             android:id="@+id/img_Vertodos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/ellipsis_50px"
-            />
+            android:paddingTop="15dp"
+            android:src="@drawable/ellipsis_50px" />
+
         <TextView
             android:id="@+id/txt_Vertodos"
-            android:layout_centerHorizontal="true"
-            android:text="VER TODOS"
             style="@style/TextGL_Sample01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/img_Vertodos"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
-            />
+            android:text="VER TODOS" />
     </RelativeLayout>
 
 </GridLayout>
