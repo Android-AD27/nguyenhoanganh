@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/txt_Caption_GetPass"
+        android:text="Hãy nhập email bạn đã đăng ký với Banxehoi.com.Chúng tôi sẽ gửi email lấy lại mật khẩu tới hòm thư của bạn.Vui lòng kiểm tra cả hòm thư Spam."
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_RequestInput"
+        android:text="Nhập đúng email của bạn"
+        android:textSize="15sp"
+        android:layout_below="@+id/txt_Caption_GetPass"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_Email_Input"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt_RequestInput"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Lấy lại mật khẩu"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/edit_Email_Input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/spr_bg_text_excar04"/>
+</RelativeLayout>
