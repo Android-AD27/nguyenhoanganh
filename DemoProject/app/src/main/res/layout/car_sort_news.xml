@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+    <TextView
+        android:id="@+id/txt_Sapxep"
+        android:text="Sắp xếp tin rao"
+        android:textSize="15sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_Kieu_Sapxep"
+        android:text="Thông thường >"
+        android:textSize="15sp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TableLayout
+        android:id="@+id/tl_01"
+        android:layout_below="@+id/txt_Kieu_Sapxep"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:text="Khoảng giá:"
+                android:textSize="15sp"/>
+            <TextView
+                android:text="Tất cả"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/Green_Gradient_01"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="Năm sản xuất́:"
+                android:textSize="15sp"/>
+            <TextView
+                android:text="Tất cả"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/Green_Gradient_01"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:id="@+id/tl_02"
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tl_01"
+        android:layout_alignParentStart="true"
+        android:stretchColumns="*"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Tình trạng"
+                android:textSize="15sp" />
+            <TextView
+                android:text="Mới"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="@color/Blue_Gradient_01"/>
+            <TextView
+                android:text="Cũ"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="@color/Blue_Gradient_01"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Xuất xứ"
+                android:textSize="15sp" />
+            <TextView
+                android:text="Trong nước"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="@color/Blue_Gradient_01"/>
+            <TextView
+                android:text="Nhập khẩu"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="@color/Blue_Gradient_01"/>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:id="@+id/tl_03"
+        android:layout_marginTop="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/tl_02"
+        android:layout_alignStart="@+id/tl_01">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Nhiên liệu"
+                android:textSize="15sp" />
+            <TextView
+                android:text="Tất cả >"
+                android:textSize="15sp"
+                android:gravity="right"
+                android:textColor="@color/Green_Gradient_01"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Hộp số́"
+                android:textSize="15sp" />
+            <TextView
+                android:text="Tất cả >"
+                android:textSize="15sp"
+                android:gravity="right"
+                android:textColor="@color/Green_Gradient_01"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Tỉnh/Thành phố"
+                android:textSize="15sp" />
+            <TextView
+                android:text="Toàn quốc >"
+                android:textSize="15sp"
+                android:gravity="right"
+                android:textColor="@color/Green_Gradient_01"/>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:id="@+id/lt_button"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_below="@+id/tl_03"
+        android:layout_marginTop="30dp">
+        <Button
+            android:text="BỎ CHỌN"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text"
+            android:layout_marginRight="2dp"/>
+        <Button
+            android:text="LỌC"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/spr_bg_text_excar04"/>
+    </LinearLayout>
+</RelativeLayout>

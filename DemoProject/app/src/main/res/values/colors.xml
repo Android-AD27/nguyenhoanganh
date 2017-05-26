@@ -5,8 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="GrayE6">#EEEEEE</color>
     <color name="GrayC6">#CCCCCC</color>
-    <color name="Green_Gradient_01">#27A93C</color>
-    <color name="Green_Gradient_02">#007D00</color>
+    <color name="Green_Gradient_01">#17e738</color>
+    <color name="Green_Gradient_02">#007d00</color>
     <color name="Purple_Gradient_01">#353492</color>
     <color name="Purple_Gradient_02">#120f68</color>
     <color name="Orange_Gradient_01">#f47200</color>
@@ -29,6 +29,7 @@
     <color name="yellow_gradient_center_02">#abaa02</color>
     <color name="green_gradientcenter_01">#365b15</color>
     <color name="green_gradientcenter_02">#528d1f</color>
+    <color name="green_4ab969">#4ab969</color>
 
 
 </resources>

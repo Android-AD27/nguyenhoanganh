@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_margin="10dp"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/txt_Chonloaitinrao"
+        android:text="Chọn loại tin rao"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/rd_Loaitin"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_Chonloaitinrao"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin thường"
+            android:buttonTint="@color/Green_Gradient_01" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin Vip 2"
+            android:buttonTint="@color/Green_Gradient_01" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin Vip 1"
+            android:buttonTint="@color/Green_Gradient_01" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin Vip Pro"
+            android:buttonTint="@color/Green_Gradient_01" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/txt_Thoigiandang"
+        android:text="Thời gian đăng"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/rd_Loaitin"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edit_Thoigiandang"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt_Thoigiandang"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/txt_Uptin"
+        android:text="Up tin tự động"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/edit_Thoigiandang"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Switch
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edit_Thoigiandang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_Thanhtien"
+        android:text="Thành tiền"
+        android:textSize="15sp"
+        android:layout_below="@+id/txt_Uptin"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@id/edit_Thoigiandang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="0 VND"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/green_4ab969"
+        android:layout_below="@+id/txt_Uptin"
+        android:layout_toRightOf="@+id/txt_Thanhtien"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Lưu và Tiếp tục"
+        android:background="@drawable/spr_bg_text_excar04"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_Thanhtien"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="40dp" />
+</RelativeLayout>

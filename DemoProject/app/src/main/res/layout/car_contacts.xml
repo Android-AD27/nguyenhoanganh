@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/txt_Thongtinlienlac"
+        android:text="Thông tin liên lạc"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_Hoten"
+        android:text="Họ tên *"
+        android:textSize="15sp"
+        android:layout_below="@+id/txt_Thongtinlienlac"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edit_Hoten"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_below="@id/txt_Hoten"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/txt_Diachi"
+        android:text="Địa chỉ"
+        android:textSize="15sp"
+        android:layout_below="@+id/edit_Hoten"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edit_Diachi"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_below="@id/txt_Diachi"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/txt_Location"
+        android:text="Tỉnh/Thành Phố *"
+        android:textSize="15sp"
+        android:layout_below="@+id/edit_Diachi"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edit_Location"
+        android:hint="Item01"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_below="@id/txt_Location"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/txt_Mobile"
+        android:text="Số điện thoại *"
+        android:textSize="15sp"
+        android:layout_below="@+id/edit_Location"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edit_Mobile"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_below="@id/txt_Mobile"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/txt_Email"
+        android:text="Email"
+        android:textSize="15sp"
+        android:layout_below="@+id/edit_Mobile"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edit_Email"
+        android:background="@drawable/edit_bg_vs02"
+        android:layout_below="@id/txt_Email"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <RadioButton
+        android:id="@+id/rd_Nhanmailphanhoi"
+        android:text="Nhận Email phản hồi"
+        android:textSize="15sp"
+        android:layout_below="@id/edit_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@+id/rd_Nhanmailphanhoi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+        <Button
+            android:text="Xem trước"
+            android:background="@color/Blue_Gradient_01"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"/>
+        <Button
+            android:text="Lưu và Đăng lên"
+            android:textColor="@android:color/white"
+            android:background="@color/green_4ab969"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"/>
+    </LinearLayout>
+</RelativeLayout>
